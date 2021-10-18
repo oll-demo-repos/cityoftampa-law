@@ -1,0 +1,55 @@
+{
+    "repositories": {
+        "cityoftampa/law-docs": {
+            "urls": [
+                "git@github.com:oll-demo-repos/cityoftampa-law-docs.git"
+            ],
+            "custom": {
+                "allow-unauthenticated-commits":true,
+                "serve":"latest",
+                "location_regex":"~/.*\\.pdf$"
+            }
+        },
+        "cityoftampa/law-xml": {
+            "urls": [
+                "git@github.com:oll-demo-repos/cityoftampa-law-xml.git"
+            ],
+            "custom": {
+                "type":"xml",
+                "allow-unauthenticated-commits":true,
+                "serve":"latest",
+                "serve-prefix":"_uncodified_xml"
+            }
+        },
+        "cityoftampa/law-html": {
+            "urls": [
+                "git@github.com:oll-demo-repos/cityoftampa-law-html.git"
+            ],
+            "custom": {
+                "preview":"git@github.com:oll-demo-repos/cityoftampa-law-html-preview.git",
+                "type":"html",
+                "serve":"historical",
+                "location_regex":"/"
+            }
+        },
+        "cityoftampa/law-xml-codified": {
+            "urls": [
+                "git@github.com:oll-demo-repos/cityoftampa-law-xml-codified.git"
+            ],
+            "custom": {
+                "preview":"git@github.com:oll-demo-repos/cityoftampa-law-xml-codified-preview.git",
+                "type":"xml-codified",
+                "serve":"historical",
+                "serve-prefix":"_xml"
+            }
+        },
+        "openlawlibrary/law-static-assets": {
+            "custom": {
+                "type":"static-assets",
+                "allow-unauthenticated-commits":true,
+                "serve":"latest",
+                "location_regex":"~.+(_document|_reader).+$"
+            }
+        }
+    }
+}
