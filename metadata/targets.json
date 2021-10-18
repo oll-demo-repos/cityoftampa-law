@@ -1,0 +1,69 @@
+{
+ "signatures": [
+  {
+   "keyid": "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111",
+   "sig": "15b2a55695a6ff4dc1e6b6ffdc5385b8ee851f0d6b8aac527c85d762d812075eafa31dd0fdb9fd2c828a2a9924de5d723f5d1d39b18b95a4e431c6487f75bc97179bd55c4ad24112c9fc03e35a1a3d17163823d4521c173c0121c423a4f9cc0c83c2ed021870f3628225fa761599704f6cbbf64ceee1eb25d860bd2dc1f54f9b139d33845229c28b73bf1289224982c636f330a83c1155465c6a486e740d9dfea2f283b0bfb528699b4d7f2ce2edf32242f84bec640ac35d0052a6207376fd4f3489812f55a3e9a41433da17a7ce929fd62e21b4aab7db151dc744d08df094e0754f9663ea2446e91523c9a10a27cc879b6afbaf5e34e8713b177e25a9a8e65d"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshFyEk2W/hvqL2bBvo/h\njar6kKdKP9aXLj3xTrR5GiKrhvUFw4YWE+8QFlJ9GtTn8q/qwb4MDpFrDlfhAhjx\nfdzoJVV8er1DgrOzmaZHd0X3HA6e7BrnFa0wTdl2zERqvtLDSdKi7+Xz3Y/MG+S8\nLzG51drFedPOsTVoHcVAeSf6KHmh3EZPO7FmxV8eB1HQM1/TbJE8vn3vKjjL/KEr\nQk45BvozkLt1IYXqUNRzRjJTHB0wbrTF63a/nj0Woja1lBCZZ+kfSUHtfNtj6btr\nlE/rqpdh3DoEEnzbB7hpdBYAfphoGVQ/JuAuO5ZuhRVLUwW9IhAyvb8j+Z7XSo5y\nEQIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111"
+     ],
+     "name": "law",
+     "paths": [
+      "cityoftampa/law-xml",
+      "cityoftampa/law-html",
+      "cityoftampa/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111"
+     ],
+     "name": "docs",
+     "paths": [
+      "cityoftampa/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "ac309ec75e9e4c353d7541e0816fbbc33acc16b73167b4951873db97a239a111"
+     ],
+     "name": "assets",
+     "paths": [
+      "openlawlibrary/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2022-01-18T00:08:15Z",
+  "spec_version": "1.0",
+  "targets": {},
+  "version": 1
+ }
+}
